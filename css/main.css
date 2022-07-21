@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  border: 1px solid #000;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+th {
+  width: 90px;
+  border: 1px solid #000;
+}
+
+tr {
+  width: 90px;
+  height: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px solid #000;
+}
+
+td {
+  width: 90px;
+  height: 40px;
+  border: 1px solid #000;
+}
+
+tfoot {
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px solid #000;
+}
+
+tfoot > tr {
+  text-align: right;
+}/*# sourceMappingURL=main.css.map */
